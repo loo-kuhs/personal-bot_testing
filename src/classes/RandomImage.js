@@ -41,7 +41,5 @@ class RandomImageFromAPI {
     return result;
   }
 }
-/* const msg = new RandomImageFromAPI()
-console.log(msg.getImageById(2)) */
 
 module.exports = new RandomImageFromAPI();

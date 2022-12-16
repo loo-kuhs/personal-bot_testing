@@ -1,16 +1,9 @@
-const {
-  Client,
-  GatewayIntentBits,
-  hyperlink,
-  AttachmentBuilder,
-  EmbedBuilder,
-} = require("discord.js");
+const { Client, GatewayIntentBits, hyperlink } = require("discord.js");
 const { token } = require("./config.json");
 const msgRandom = require("./src/classes/RandomMessage.js");
 const cow = require("./src/classes/Cow.js");
 const imageRnd = require("./src/classes/RandomImage.js");
-const Canvas = require("@napi-rs/canvas");
-// const spinnerCli = require("./src/utils/spinner-cli");
+
 
 const personalBot = new Client({
   intents: [
