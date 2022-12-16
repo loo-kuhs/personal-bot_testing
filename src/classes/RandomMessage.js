@@ -5,6 +5,8 @@ class RandomMessage {
       "Que bueno verte por acá!",
       "Búscate una vida.",
       "Perdón",
+      "Saludos",
+      "Hola, ¿cómo estás?",
     ];
   }
 

@@ -7,6 +7,10 @@ const commands = [
   new SlashCommandBuilder()
     .setName("hola")
     .setDescription("Devuelve un mensaje random"),
+  new SlashCommandBuilder()
+    .setName("image")
+    .setDescription("Devuelve una imagen random")
+    ,
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: "10" }).setToken(token);
