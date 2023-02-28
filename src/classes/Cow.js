@@ -1,4 +1,4 @@
-const cowsay = require("cowsay");
+const cowsay = require('cowsay')
 
 class Cow {
   constructor() {}
@@ -7,11 +7,10 @@ class Cow {
     return cowsay.think({
       text: text,
       w: false,
-      e: "uU",
+      e: 'uU',
       r: true,
-      
-    });
+    })
   }
 }
 
-module.exports = new Cow();
+module.exports = new Cow()

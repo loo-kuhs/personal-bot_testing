@@ -1,18 +1,20 @@
 class RandomMessage {
   constructor() {
     this.messages = [
-      "Hola!",
-      "Que bueno verte por acá!",
-      "Búscate una vida.",
-      "Perdón",
-      "Saludos",
-      "Hola, ¿cómo estás?",
-    ];
+      'Hola!',
+      'Que bueno verte por acá!',
+      'Búscate una vida.',
+      'Perdón',
+      'Saludos',
+      'Hola, ¿cómo estás?',
+      '¿Qué tal?',
+      '¿Cómo estás?',
+    ]
   }
 
   getRandomMessage() {
-    return this.messages[Math.floor(Math.random() * this.messages.length)];
+    return this.messages[Math.floor(Math.random() * this.messages.length)]
   }
 }
 
-module.exports = new RandomMessage().getRandomMessage();
+module.exports = new RandomMessage().getRandomMessage()

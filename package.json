@@ -1,6 +1,6 @@
 {
   "name": "personal-bot",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Un bot de discord para testing",
   "main": "app.js",
   "scripts": {
@@ -9,7 +9,9 @@
     "commands": "node src/deploy-commands.js"
   },
   "keywords": [
-    "bot"
+    "bot",
+    "discord",
+    "discord.js"
   ],
   "author": "Carlos Lucas <@loo-kuhs>",
   "license": "ISC",
