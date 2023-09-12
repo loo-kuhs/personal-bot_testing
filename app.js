@@ -33,7 +33,6 @@ personalBot.on('interactionCreate', async (interaction) => {
 })
 
 personalBot.on('messageCreate', async (message) => {
-  // TODO: Fix the wrapped ascii art in Discord message reply
   if (message.content.startsWith('!vaca')) {
     const text = message.content.slice(5)
     const msg = cow.talk(text)
